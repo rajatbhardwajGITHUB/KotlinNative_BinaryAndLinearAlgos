@@ -8,3 +8,8 @@
 ## ⚙️ BEHIND THE CURTAINS !!!
 #### Mainly It Implements the Concept of lambda and higher order functions.
 
+## ⚙️ EXPECTED UPDATES
+##### Add more algos
+##### For Binary Search if the list is not Sorted then sort the list and return 
+##### Better Exception handling
+##### If an element is present at multple Indexes then return them all
