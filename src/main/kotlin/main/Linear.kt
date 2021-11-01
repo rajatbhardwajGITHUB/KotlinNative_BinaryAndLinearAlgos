@@ -1,8 +1,9 @@
 package main
 
-class Linear(req: Int, list: List<Int>, var compute : (List<Int>,Int) -> Int):Algos(req,list){
+//Subclass of the Algos
+class Linear(req: Int, list: List<Int>,compute : (List<Int>,Int) -> Int):Algos(req,list,compute){
     override fun calc() {
-        println("linear search is started P : 2")
+        //capturing the return value from the function
         val resultOfLinearSearch = compute(list,req)
         if(resultOfLinearSearch == -1){
             println("Required Element is not on the List")

@@ -1,8 +1,8 @@
 package main
 
-abstract  class Algos(var req : Int, val list: List<Int>){
-    //"first" is the first element of the array
-    //"last" is the last element of the array
+//class provides the main three elements required by both the binary and linear clases
+abstract  class Algos(var req : Int, var list: List<Int>,var compute: (List<Int>, Int) -> Int){
+
     abstract fun calc()
 }
 
