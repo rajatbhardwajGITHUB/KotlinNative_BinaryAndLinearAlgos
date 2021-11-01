@@ -19,7 +19,11 @@ fun main(){
 
     //Takes the input with a delimiter ',' and separates them and store them in the list
     println("ENTER THE LIST AND SEPARATE THE ELEMENT WITH ','")
-    val list : List<Int> = readLine()!!.trim().split(",").map (String::toInt) //RIGHT NOW No IDEA ABOUT THIS CODE *FROM STACKOVERFLOW*
+    //take the input seprated by commas
+    //then trim any leading or trailing whitespaces removed
+    //splits this i/p to list of strings around the occurrences of the specified delimiters
+    //then maps each string value into a Int and return to the new list
+    val list : List<Int> = readLine()!!.trim().split(",").map (String::toInt)
     println()
     println("Enter the Required Element :  ")
     println()
